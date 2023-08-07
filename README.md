@@ -24,6 +24,7 @@ npm i # or yarn or pnpm - IDFC (I'm Definitely Feeling Complacent)
   - ...
 - Flash Messages with [sveltekit-flash-message](https://github.com/ciscoheat/sveltekit-flash-message)
 - Headless accessible & customizable components with [melt-ui](https://www.melt-ui.com/) and their preprocessor
+- Icons via [unplugin-icons](https://github.com/antfu/unplugin-icons)
 
 ## "But i need more shi- .. stuff"
 
@@ -39,7 +40,7 @@ Yes, and it does not even care. You should add your own styles like [Skeleton](h
 
 Remove configs and dependencies:
 ```bash
-rm tailwind.config.js postcss.config.js && npm remove postcss autoprefixer  prettier-plugin-tailwindcss tailwind-merge
+rm tailwind.config.js postcss.config.js && npm remove postcss autoprefixer prettier-plugin-tailwindcss tailwind-merge
 ```
 
 Remove `prettier-plugin-tailwindcss` from **.prettierrc**.
